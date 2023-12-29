@@ -12,4 +12,4 @@ This machine learning (ML) project was created for the purpose of deploying a ML
 The objective of this tutorial is to build a prediction model that will accurately classify which texts are spam using the FastAPI framework. 
 > The original dataset can be found [here](https://archive.ics.uci.edu/dataset/228/sms+spam+collection).
 
-![](images/hannes-johnson-mRgffV3Hc6c-unsplash.jpg)
+![hannes-johnson-mRgffV3Hc6c-unsplash](https://github.com/weezymatt/Spam-Detection-backend/assets/85853890/acd2af65-3153-42a3-b857-5ae63e7f7a16)
