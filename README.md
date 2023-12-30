@@ -179,11 +179,25 @@ The ```requirements.txt``` file enables us to recreate all the modules necessary
 pip freeze > requirements.txt
 ```
 ## Deployment
-hello
+Here we develop the deployment in stages until we reach the container step where we are able to display the webpage.
+
 ### FastAPI Deployment
-hello
+
+1. Open the terminal and navigate to the directory where your ```app.py``` file is located.
+
+2. Run the FastAPI application by using the uvicorn command, specifying the application name. The "--reload" feature is useful for changes to be automatically reflected.
+
+   ```python
+   uvicorn <application-file>:app --reload
+   ```
+
+3. After running the uvicorn command, the FastAPI application is up and running on the specific address (i.e. localhost:8000) listed. This address represents the API endpoint where we can access our application. We will see the importance of this endpoint during the front-end part of the project.
+
+4. You may open your browser to interact with your deployed FastAPI application. The endpoint acts as an intermediary between requests and responses (Press CTRL+C to quit).
+
 ### API Documentation
-hello
+The FastAPI Documentation details the available endpoints, JSON request and response formats, and information specified in your ```app.py``` file. You can access this documentation by adding the /docs to the server (http://localhost:8000/docs).
+
 ### Containerized Deployment
 hello
 ## See More
