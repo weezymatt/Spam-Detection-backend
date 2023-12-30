@@ -43,10 +43,8 @@ The "Spam Detection backend" project aims to provide a brief outline of Machine 
    This is another very helpful tutorial that clearly demonstrates the purpose of Docker in machine learning. Crucially, there is a piece on creating a Dockerfile that helped greatly. You can build the Docker image and start the container at this stage.
 
 5. [Share the Application - Docker](https://docs.docker.com/get-started/04_sharing_app/)
-
-   Throughout the project, I wanted to following certain ml processes **come back here**
-
-
+  
+   After building your Docker image, you can share it with Docker Hub. The purpose of sharing the image allows for easy integration into a cloud environment (i.e. Render) and demonstrates the portablility of Docker containers. You can run your application on a hosted site at this stage.
 
 ## Project Setup
 To set up the project environment locally, follow these steps:
