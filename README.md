@@ -26,6 +26,25 @@ Photo by <a href="https://unsplash.com/@hannes?utm_content=creditCopyText&utm_me
 The "Spam Detection backend" project aims to provide a brief outline of Machine Learning Operations (MLOps) by focusing on certain steps necessary to deploy your ML model. Below I have provided helpful documentation that allowed me to complete this project.
 
 ### Helpful Resources 
+1. [Machine Learning Mastery: Save and Load ML Models in Python](https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/)
+    
+   This article you will discover how to save and load your model with pickle and joblib. You will then be able to reuse your saved file to make predictions at this stage.
+
+2. [Integrating ML classifier with FastAPI](https://www.fastapitutorial.com/blog/ml-model-prediction-with-fastapi/)
+
+   Explanation of the overall backend pipeline for ML models. Granted, I did not follow this article much but the ```main.py``` file provides a simple overview of how integrating your saved model with FastAPI.
+
+3. [Building a Machine Learning API in 15 Minutes](https://www.youtube.com/watch?v=C82lT9cWQiA&t=300s)
+
+   Very useful video! The format details, in digestible parts, how an API project may be deployed. Additionally, you can the application with ```uvicorn app:app --reload``` at this stage.
+
+4. [FastAPI in Containers - Docker](https://fastapi.tiangolo.com/deployment/docker/)
+
+   This is another very helpful tutorial that clearly demonstrates the purpose of Docker in machine learning. Crucially, there is a piece on creating a Dockerfile that helped greatly. You can build the Docker image and start the container at this stage.
+
+5. [Share the Application - Docker](https://docs.docker.com/get-started/04_sharing_app/)
+
+   Throughout the project, I wanted to following certain ml processes **come back here**
 
 
 
