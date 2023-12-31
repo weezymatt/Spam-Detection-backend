@@ -194,7 +194,7 @@ The FastAPI Documentation details the available endpoints, JSON request and resp
 When deploying an API a common approach is to build a container image. We will be needing to write a Dockerfile for the application.
 
 #### Dockerfile
-> Dependency Issue: For the Docker container to properly run, an additional file downloading the NLTK stopwords was incorporated into the workflow. This may not be necessary in your process.
+> Dependency Issue: For the Docker container to properly run, an additional file initializing the NLTK stopwords was incorporated into the workflow. This may not be necessary in your process.
 
 ```Dockerfile
 FROM python:3.11.5
@@ -246,5 +246,6 @@ docker run -d --name mycontainer -p 8000:80 <image-title>
 ```
 
 ## See More
+<img width="1346" alt="welcome-goodbye" src="https://github.com/weezymatt/Spam-Detection-backend/assets/85853890/1a228934-469f-4f64-9997-d9b76bb3d3a1">
 
 There you have it! You can use your saved image on Docker Hub with your cloud environment of choice and start the next step of your application. For the second part of this project involving the front-end piece, please click [here](pending).
